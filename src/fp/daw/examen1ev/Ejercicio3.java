@@ -14,6 +14,7 @@ public class Ejercicio3 {
 		String lin2 = input.nextLine(); // Almacenamos texto por teclado
 		String soloNum[] =  lin2.split(" ");
 		calculo(lin1,soloNum);
+		input.close();
 	}
 
 	private static char[] valueOf(String lin1) {
